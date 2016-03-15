@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FannyViewContrller.h"
 
-@interface ViewController : UIViewController
+
+@interface ViewController : FannyViewContrller
 
 
 @end

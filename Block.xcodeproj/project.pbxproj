@@ -15,6 +15,8 @@
 		8FF48B721C8FC0EF006E9D0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FF48B701C8FC0EF006E9D0C /* LaunchScreen.storyboard */; };
 		8FF48B7D1C8FC0EF006E9D0C /* BlockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF48B7C1C8FC0EF006E9D0C /* BlockTests.m */; };
 		8FF48B881C8FC0EF006E9D0C /* BlockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF48B871C8FC0EF006E9D0C /* BlockUITests.m */; };
+		8FF48B971C8FC182006E9D0C /* FannyViewContrller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF48B961C8FC182006E9D0C /* FannyViewContrller.m */; };
+		8FF48BAB1C9293F1006E9D0C /* MyOpertion.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF48BAA1C9293F1006E9D0C /* MyOpertion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		8FF48B831C8FC0EF006E9D0C /* BlockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FF48B871C8FC0EF006E9D0C /* BlockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockUITests.m; sourceTree = "<group>"; };
 		8FF48B891C8FC0EF006E9D0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FF48B951C8FC182006E9D0C /* FannyViewContrller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FannyViewContrller.h; sourceTree = "<group>"; };
+		8FF48B961C8FC182006E9D0C /* FannyViewContrller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FannyViewContrller.m; sourceTree = "<group>"; };
+		8FF48BA91C9293F1006E9D0C /* MyOpertion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOpertion.h; sourceTree = "<group>"; };
+		8FF48BAA1C9293F1006E9D0C /* MyOpertion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOpertion.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				8FF48B661C8FC0EF006E9D0C /* AppDelegate.m */,
 				8FF48B681C8FC0EF006E9D0C /* ViewController.h */,
 				8FF48B691C8FC0EF006E9D0C /* ViewController.m */,
+				8FF48B951C8FC182006E9D0C /* FannyViewContrller.h */,
+				8FF48B961C8FC182006E9D0C /* FannyViewContrller.m */,
+				8FF48BA91C9293F1006E9D0C /* MyOpertion.h */,
+				8FF48BAA1C9293F1006E9D0C /* MyOpertion.m */,
 				8FF48B6B1C8FC0EF006E9D0C /* Main.storyboard */,
 				8FF48B6E1C8FC0EF006E9D0C /* Assets.xcassets */,
 				8FF48B701C8FC0EF006E9D0C /* LaunchScreen.storyboard */,
@@ -273,6 +283,8 @@
 				8FF48B6A1C8FC0EF006E9D0C /* ViewController.m in Sources */,
 				8FF48B671C8FC0EF006E9D0C /* AppDelegate.m in Sources */,
 				8FF48B641C8FC0EF006E9D0C /* main.m in Sources */,
+				8FF48BAB1C9293F1006E9D0C /* MyOpertion.m in Sources */,
+				8FF48B971C8FC182006E9D0C /* FannyViewContrller.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +510,7 @@
 				8FF48B8E1C8FC0EF006E9D0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8FF48B8F1C8FC0EF006E9D0C /* Build configuration list for PBXNativeTarget "BlockTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +519,7 @@
 				8FF48B911C8FC0EF006E9D0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8FF48B921C8FC0EF006E9D0C /* Build configuration list for PBXNativeTarget "BlockUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +528,7 @@
 				8FF48B941C8FC0EF006E9D0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
